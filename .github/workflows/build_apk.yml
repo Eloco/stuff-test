@@ -14,3 +14,4 @@ jobs:
         git clone https://github.com/rojer95/netease-cloud-music-tv-rn.git
         cd netease-cloud-music-tv-rn && yarn install
         cd android && ./gradlew assembleRelease
+        ls -l
