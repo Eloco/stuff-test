@@ -13,4 +13,5 @@ jobs:
       run: |
         git clone https://github.com/rojer95/netease-cloud-music-tv-rn.git
         cd netease-cloud-music-tv-rn && yarn install
-        yarn android
+        yarn release
+        ls -l
